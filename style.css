@@ -1,0 +1,109 @@
+.boogle {
+  content: url("https://booglebookclub.com/images/logo.png");
+  margin: auto;
+  width: 160px;
+  height: 50px;
+  padding: 15px;
+}
+
+.content {
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  font-family: Bookman;
+  font-weight: normal;
+}
+h2 {
+  font-size: 20px;
+  font-family: Bookman;
+  font-weight: normal;
+}
+
+.box {
+  margin: auto;
+  width: 300px;
+  height: 250px;
+  background-color: whitesmoke;
+  border: 1px grey solid;
+  border-style: outset;
+  text-align: center;
+}
+.face {
+  content: url("https://rest-house.com.ua/wp-content/uploads/2017/10/default_user_feedback-1.png");
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  padding: 15px;
+}
+.email {
+  margin: auto;
+
+}
+.email input {
+  background-color: papayawhip;
+  font-size: 14px;
+  width: 250px;
+  height: 30px;
+}
+
+.email button {
+  background-color: royalblue;
+  color: white;
+  font-size: 14px;
+  width: 260px;
+  height: 35px;
+  margin: 10px;
+}
+
+.email a {
+  margin: 0 0 0 180px;
+}
+
+.newaccount p {
+  text-align: center;
+}
+.bottom p {
+  text-align: center;
+}
+
+.google a {
+  content: url("http://www.fitmedia.com.br/wp-content/uploads/2016/09/GDN-FitMedia-Especs.jpg");
+  width: 30px;
+  height: 25px;
+}
+
+.gmail a {
+  content: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png");
+  width: 25px;
+  height: 25px;
+}
+.gmaps a {
+  content: url("https://cdn-images-1.medium.com/max/1600/0*oJK4t4_NTgdBPPgz.png");
+  width: 25px;
+  height: 25px;
+}
+
+.icons {
+  text-align: center;
+}
+
+.google, .gmail, .gmaps {
+  display: inline-block;
+  padding: 0 10px 10px;
+}
+
+.footer {
+border-top: 1px grey solid
+
+}
+
+.left-footer li {
+  display: inline-block;
+}
+
+.left-footer li a {
+  color: black;
+  text-decoration: none;
+  margin-left: 15px;
+}
