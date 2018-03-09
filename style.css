@@ -1,3 +1,5 @@
+
+
 .boogle {
   content: url("https://booglebookclub.com/images/logo.png");
   margin: auto;
@@ -58,6 +60,8 @@ h2 {
 
 .email a {
   margin: 0 0 0 180px;
+  font-family: Bookman;
+  font-size: 16px;
 }
 
 .newaccount p {
@@ -65,6 +69,7 @@ h2 {
 }
 .bottom p {
   text-align: center;
+  font-size: 18px;
 }
 
 .google a {
@@ -94,16 +99,32 @@ h2 {
 }
 
 .footer {
-border-top: 1px grey solid
+height: 80px;
+width: 100%;
+position: fixed;
+bottom: 0;
+border-top: 1px grey solid;
 
 }
 
 .left-footer li {
   display: inline-block;
+  padding-right: 15px;
 }
 
 .left-footer li a {
   color: black;
   text-decoration: none;
-  margin-left: 15px;
+
+}
+.left-footer {
+  float left;
+}
+.right-footer {
+  float: right;
+  padding: 15px 50px 0 0;
+}
+
+.left-footer, .right-footer {
+  display: inline-block;
 }
